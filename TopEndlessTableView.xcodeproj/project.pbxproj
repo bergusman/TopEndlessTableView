@@ -83,11 +83,7 @@
 		4404E3CB17A164EE00A97143 /* TopEndlessTableView */ = {
 			isa = PBXGroup;
 			children = (
-				4404E3D417A164EE00A97143 /* VBAppDelegate.h */,
-				4404E3D517A164EE00A97143 /* VBAppDelegate.m */,
-				4404E3DD17A164EE00A97143 /* VBViewController.h */,
-				4404E3DE17A164EE00A97143 /* VBViewController.m */,
-				4404E3E017A164EE00A97143 /* VBViewController.xib */,
+				4404E3EA17A1664800A97143 /* Sources */,
 				4404E3CC17A164EE00A97143 /* Supporting Files */,
 			);
 			path = TopEndlessTableView;
@@ -105,6 +101,26 @@
 				4404E3DB17A164EE00A97143 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4404E3E917A1652300A97143 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4404E3DD17A164EE00A97143 /* VBViewController.h */,
+				4404E3DE17A164EE00A97143 /* VBViewController.m */,
+				4404E3E017A164EE00A97143 /* VBViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4404E3EA17A1664800A97143 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4404E3E917A1652300A97143 /* Controllers */,
+				4404E3D417A164EE00A97143 /* VBAppDelegate.h */,
+				4404E3D517A164EE00A97143 /* VBAppDelegate.m */,
+			);
+			name = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
