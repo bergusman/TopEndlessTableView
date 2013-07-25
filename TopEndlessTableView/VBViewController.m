@@ -10,7 +10,7 @@
 
 #define TOP_OFFSET 1000
 #define DELAY 0.3
-#define ADDING_ITEMS 50
+#define ADDING_ITEMS 80
 
 @interface VBViewController () <
     UITableViewDataSource,
@@ -31,6 +31,9 @@
     
     self.items = [NSMutableArray array];
     [self addItems];
+    
+    NSIndexPath *indexPath = [NSIndexPath indexPathForRow:([self.items count] - 1) inSection:0];
+    [self.tableView scrollToRowAtIndexPath:indexPath atScrollPosition:UITableViewScrollPositionBottom animated:NO];
 }
 
 - (void)addItems {
